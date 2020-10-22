@@ -1,5 +1,5 @@
 {
-    "name": "jlndk/laravel-test-broadcaster",
+    "name": "vitorhugoro1/laravel-test-broadcaster",
     "description": "A broadcast provider for testing event broadcasting",
     "keywords": [
         "laravel",
@@ -7,19 +7,18 @@
         "testing",
         "events"
     ],
-    "homepage": "https://github.com/jlndk/laravel-test-broadcaster",
+    "homepage": "https://github.com/vitorhugoro1/laravel-test-broadcaster",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jonas Lindenskov Nielsen",
-            "email": "hi@lindenskov.dev",
-            "homepage": "https://lindenskov.dev",
+            "name": "Vitor Hugo Rodrigues Merencio",
+            "email": "vitorhugo.ro10@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.4",
-        "illuminate/support": "^7.5"
+        "illuminate/support": "^7.0|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -29,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jlndk\\TestBroadcaster\\": "src"
+            "VitorHugoRo\\TestBroadcaster\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jlndk\\TestBroadcaster\\Tests\\": "tests"
+            "VitorHugoRo\\TestBroadcaster\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jlndk\\TestBroadcaster\\TestBroadcastServiceProvider"
+                "VitorHugoRo\\TestBroadcaster\\TestBroadcastServiceProvider"
             ],
             "aliases": {
-                "TestBroadcaster": "Jlndk\\TestBroadcaster\\TestBroadcasterFacade"
+                "TestBroadcaster": "VitorHugoRo\\TestBroadcaster\\TestBroadcasterFacade"
             }
         }
     },

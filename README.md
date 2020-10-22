@@ -34,9 +34,9 @@ composer require jlndk/laravel-test-broadcaster
 </php>
 ```
 
-4. Finally add the `Jlndk\TestBroadcaster\CanTestBroadcasting` trait to `tests/TestCase.php`.
+4. Finally add the `VitorHugoRo\TestBroadcaster\CanTestBroadcasting` trait to `tests/TestCase.php`.
 ```php
-use Jlndk\TestBroadcaster\CanTestBroadcasting;
+use VitorHugoRo\TestBroadcaster\CanTestBroadcasting;
 abstract class TestCase extends BaseTestCase
 {
     use CanTestBroadcasting;

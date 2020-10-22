@@ -1,6 +1,6 @@
 <?php
 
-namespace Jlndk\TestBroadcaster;
+namespace VitorHugoRo\TestBroadcaster;
 
 use Illuminate\Broadcasting\Broadcasters\Broadcaster;
 

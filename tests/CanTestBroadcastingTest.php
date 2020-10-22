@@ -1,6 +1,6 @@
 <?php
 
-namespace Jlndk\TestBroadcaster\Tests;
+namespace VitorHugoRo\TestBroadcaster\Tests;
 
 use PHPUnit\Framework\ExpectationFailedException;
 
